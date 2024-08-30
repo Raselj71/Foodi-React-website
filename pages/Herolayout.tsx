@@ -33,18 +33,14 @@ function Herolayout() {
           </div>
         </div>
         <div className="w-full lg:w-[55%] relative h-[70vh] flex justify-center items-center  float-left">
-          <div className="absolute bg-primaryColor rounded-full w-[260px] md:w-[410px] md:h-[410px]  h-[260px] top-[30%] md:top-[29%] left-[10%] md:left-[22%] lg:w-[450px] lg:h-[450px] lg:top-[23%] lg:left-[25%] "></div>
+        
           <img
-            src="/Intersect.png"
-            className="absolute w-[500px] h-auto   lg:w-[500px] lg:h-[550px]"
+            src="/hero.png"
+            className="absolute w-full h-auto  "
             alt="alt"
           />
 
-          <img
-            src="/hot.png"
-            className=" w-[150px] md:w-[300px]  lg:w-auto absolute -left-10 top-[35%]  lg:top-[22%] lg:left-0"
-            alt="alt"
-          />
+         
 
           <div className=" absolute bottom-14 lg:-bottom-6 flex space-x-3 lg:gap-10">
             <FoodMiniItem />

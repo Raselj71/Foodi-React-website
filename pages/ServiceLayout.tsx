@@ -7,17 +7,17 @@ import Megamenu from "../components/Megamenu";
 
 function ServiceLayout() {
   return (
-    <section className="flex justify-center -mt-20 lg:mt-80 mb-40">
+    <section className="flex justify-center  lg:mt-80 mb-40">
       <div className="container px-10 flex flex-col lg:flex-row space-x-5">
         <div className="w-full lg:w-1/2">
           <p className="text-[#FF6868] text-[20px] font-bold uppercase tracking-widest">
             Our Story & Services
           </p>
-          <h2 className="font-bold text-[30px] md:text-[50px] lg:text-[60px] mt-8 lg:mt-14 lg:leading-[4rem]">
+          <h2 className="font-bold text-[25px] md:text-[50px] lg:text-[60px] mt-8 lg:mt-14 lg:leading-[4rem]">
             Our Culinary Journey <br /> And Services
           </h2>
           <div className="md:flex  md:flex-col md:justify-center md:items-center lg:justify-normal lg:items-start">
-            <p className="font-medium text-[14px] lg:text-[26px] text-textColor mt-10 md:text-center  lg:text-left md:text-[20px] ">
+            <p className="font-medium text-[12px] lg:text-[26px] text-textColor mt-10 md:text-center  lg:text-left md:text-[20px] ">
               Rooted in passion, we curate unforgettable dining <br />{" "}
               experiences and offer exceptional services, <br /> blending
               culinary artistry with warm hospitality.
@@ -29,7 +29,7 @@ function ServiceLayout() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-10 md:gap-5 lg:gap-7 mt-8 justify-items-center">
+        <div className="grid grid-cols-2 space-y-4 md:gap-5 lg:gap-7 mt-8 ">
           <Megamenu
             image={"/salad.png"}
             heading={"catering"}

@@ -6,26 +6,17 @@ import { FaStar } from "react-icons/fa";
 
 function TestimonialLayout() {
   return (
-    <section className="flex justify-center mt-40 lg:mb-40">
+    <section className="flex justify-center mt-0 lg:mt-60 lg:mb-40">
       <div className="container px-10 flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 h-[80vh] relative   ">
-          <div className="bg-primaryColor w-[350px] md:w-[500px] lg:w-[520px] rounded-tl-[150px] rounded-tr-[150px] rounded-b-[50px]  h-[390px] absolute bottom-0 left-1/2 transform -translate-x-1/2"></div>
+         
           <img
-            src="/actor.png"
-            className="w-[500px] h-[744px] absolute z-50 bottom-0  left-[40%] transform -translate-x-[40%]"
+            src="/actor2.png"
+            className="w-full h-auto absolute z-50 bottom-0  left-[40%] transform -translate-x-[40%]"
             alt="alt"
           />
 
-          <img
-            className="absolute -left-8 md:left-16 lg:left-[10%] top-[65%]"
-            src="yammi.png"
-            alt="alt"
-          />
-          <img
-            className="absolute -right-8 md:right-16 lg:right-[10%] top-[65%]"
-            src="pijja.png"
-            alt="alt"
-          />
+        
 
           <div className="absolute -bottom-20 right-0">
             <div className="relative w-fit z-50">
@@ -41,10 +32,10 @@ function TestimonialLayout() {
           <p className="font-bold text-[20px] text-[#FF6868] tracking-widest">
             TESTIMONIALS
           </p>
-          <h2 className="font-bold text-[30px] md:text-[45px] text-left lg:text-[60px] lg:leading-[1.25] mt-5 lg:mt-10">
+          <h2 className="font-bold text-[25px] md:text-[45px] text-left lg:text-[60px] lg:leading-[1.25] mt-5 lg:mt-10">
             What Our Customers <br /> Say About Us
           </h2>
-          <p className="font-medium text-[13px] md:text-[20px] text-center lg:text-[26px] text-[#555555] mt-10">
+          <p className="font-medium text-[12px] md:text-[20px] text-center lg:text-[26px] text-[#555555] mt-10">
             “I had the pleasure of dining at Foodi last night, and <br /> Im
             still raving about the experience! The attention to <br /> detail in
             presentation and service was impeccable”
