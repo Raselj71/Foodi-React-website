@@ -29,7 +29,7 @@ function ServiceLayout() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-5 md:gap-5 lg:gap-7 mt-8 ">
+        <div className="w-full grid grid-cols-2 gap-2 md:gap-5 lg:gap-7 mt-8 ">
           <Megamenu
             image={"/salad.png"}
             heading={"catering"}
